@@ -1,0 +1,60 @@
+.react-shortcut-to-screen {
+  z-index: 100;
+  position: fixed;
+  width: 186px;
+  height: 76px;
+  bottom: 10px;
+  background-color: #666666;
+  opacity: 0.9;
+  border-radius: 3px;
+}
+.react-shortcut-to-screen .con {
+  position: relative;
+  height: 76px;
+}
+.react-shortcut-to-screen .ic-bg {
+  background: transparent url(https://3gimg.qq.com/wap30/infoapp/touch/itravel/images/img/bg-ic.png) no-repeat scroll;
+  background-size: 20px auto;
+}
+.react-shortcut-to-screen .ic-closebtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 3;
+  width: 11px;
+  height: 11px;
+  background-position: left top;
+}
+.react-shortcut-to-screen .tip {
+  padding: 15px 10px;
+}
+.react-shortcut-to-screen .tip img {
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+  float: left;
+  margin-right: 10px;
+}
+.react-shortcut-to-screen .tip p {
+  color: #FFFFFF;
+  position: relative;
+  top: -3px;
+  font-size: 14px;
+}
+.react-shortcut-to-screen .ic-add {
+  display: inline-block;
+  width: 16px;
+  height: 20px;
+  background-position: left -19px;
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+}
+.react-shortcut-to-screen .ic-arrow {
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  bottom: -10px;
+  left: 83px;
+  background-position: left -44px;
+}
